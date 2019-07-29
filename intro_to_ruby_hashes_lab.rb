@@ -4,26 +4,24 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  my_hash = Hash.new()
-  my_hash[:key] = 'value'
+  h = Hash.new()
+  h[:key] = 'value'
+  return h
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  pioneer = Hash.new()
-  pioneer[:name] = 'Grace Hopper'
+ 
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-   id_generator = Hash.new()
-    id_generator[:id] = rand(1..100)
+  
 end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_hash = Hash.new()
-  my_hash[key] = value
+
 end
 
 def read_from_hash(hash, key)
